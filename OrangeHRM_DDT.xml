@@ -1,0 +1,15 @@
+<suite name="OrangeHRM Data-Driven-Test Suite">
+
+	<test name="Admin Login Test with valid credentials">
+		<classes>
+			<class name="orangehrm.testcases.AdminLoginTestwithValidData"></class>
+		</classes>	
+	</test>
+	
+	<test name="Admin Login Test with Invalid credentials">
+		<classes>
+			<class name="orangehrm.testcases.AdminLoginTestwithInvalidData"></class>
+		</classes>
+	</test>
+
+</suite>
